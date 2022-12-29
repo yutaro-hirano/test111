@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body {
+  width: 100%;
+  height: 4511px;
+}
+.header {
+  text-align: center;
+  background-color: #f2f3f7;
+}
+.background {
+  width: 980px;
+  height: 832px;
+  position: relative;
+  background-image: url(./images/main_image.png);
+  margin: 0 auto;
+  background-size: contain;
+}
+.header_box {
+  width: 974px;
+  height: 77px;
+  right: 50px;
+  position: absolute;
+  background-color: #ffffff;
+  top: 57px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 3px 3px rgb(170, 169, 169);
+}
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 37px;
+}
+.nav-list {
+  list-style: none;
+  position: relative;
+  display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
+  justify-content: space-around;
+  font-size: 14px;
+  width: 730px;
+  top: 10px;
+}
+a{
+  text-decoration:none;
+  color: #000;
+}
+a:hover{
+  color: blue;
+}
+.menu_jp {
+  position: relative;
+  bottom: 10px;
+  font-size: 10px;
+  color: #777;
+}
+
+.nav-item > span {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+/* 縦線をつける */
+.nav-item::after {
+  position: relative;
+  bottom: 10px;
+  left: 20px; 
+  content: '';
+  border-right: 1px solid #000;
+  height: 10px;
+  width: 30px;
+}
+/* 縦線の最後を消す */
+.nav-item:last-child::after {
+  content: '';
+  border: none;
+}
+.title{
+    position: relative;
+    list-style: none;
+    color: #D4004E;
+    top: 214px;
+    right: 90px;
+}
+.title_big{
+    font-size: 76px;
+    text-align: left;
+    font-family: 'Helvetica';
+    line-height: 1;
+    padding-top: 20px;
+}
+.title_small{
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    position: relative;
+    right: 350px;
+    top: 40px;
+}
+.scroll{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    color: #E00052;
+    top: 760px;
+    left: 450px;
+}
