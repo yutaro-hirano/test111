@@ -3,10 +3,11 @@
 * {
   margin: 0px;
   padding: 0px;
+  /* outline: 2px red solid; */
 }    
 body {
   width: 100%;
-  height: 4511px;
+  height: 3500px;
   margin: 0;
 }
 .header {
@@ -21,6 +22,7 @@ body {
   background-image: url(./images/main_image.png);
   margin: 0 auto;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .header_box {
   width: 974px;
@@ -114,4 +116,279 @@ a:hover{
     color: #E00052;
     top: 783px;
     left: 450px;
+}
+/* main */
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 43px;
+    position: relative;
+    left: 250px;
+    top: 90px;
+    width: 70%;
+}
+.mark{
+    position: relative;
+    display: block;
+    margin-bottom: 11px;
+    left: 210px;
+    top: 35px;
+}
+.gray{
+    position: absolute;
+    background-color: #f2f3f7;
+    width: 953px;
+    height: 282px;
+    left: 240px;
+    top: 950px;
+}
+p{
+    position: relative;
+    left: 310px;
+    top: 70px;
+    width: 70%;
+}
+.btn_info{
+    position: relative;
+    padding: 10px 53px 10px 53px;
+    width: 157px;
+    height: 35px;
+    background: #D4004E;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    left: 630px;
+    top: 150px;
+}
+.service{
+    top:240px;
+}
+.mark2{
+    position: relative;
+    display: block;
+    margin-bottom: 11px;
+    left: 210px;
+    top: 180px;
+}
+/* science,iot */
+.info_left{
+    position: relative;
+    width: fit-content;
+    top: 240px;
+    left: 210px;
+    display: flex;
+}
+.info_left_text{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 95px;
+    color: #D4004E;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.p_info{
+    position:relative;
+    width: 100%;
+    top: 38px;
+    left: auto;
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn_info_2{
+    position: relative;
+    top: 90px;
+    left: 105px;
+    padding: 10px 45px 10px 45px;
+    background: #D4004E;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+/* education,unkobotan */
+.info_right{
+    position: relative;
+    display: flex;
+    top: 350px;
+}
+.info_right_text{
+    position: relative;
+    color: #D4004E;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    left: 260px;
+    font-weight: 700;
+}
+.img_right{
+    position: relative;
+    left: 345px;
+}
+.info_under{
+    position: relative;
+    top: 230px;
+}
+/* ニュース */
+.news{
+    position: relative;
+    z-index: 2;
+    top:700px;
+}
+.mark3{
+    position: relative;
+    display: block;
+    margin-bottom: 11px;
+    left: 210px;
+    top: 640px;
+}
+.gray_box{
+    position: relative;
+    z-index: 1;
+    background-color: #f2f3f7;
+    width: 954px;
+    height: 86px;
+    left: 240px;
+    top: 600px;
+    margin-top: 12px;
+}
+.color_box{
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    top: 33px;
+    left: 20px;
+    padding: 3.5px 6.5px 3.5px 9.5px;
+    border: 1px solid #E5A31C;
+    color: #E5A31C;
+    font-family: 'Hiragino Sans';
+    font-size: 12px;
+}
+.p_news{
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    left: 120px;
+    top: 10px;
+    margin-left: 80px;
+}
+.p_news_right{
+    margin-left: 66px;
+}
+.p_news_right::before{
+    position:absolute;
+    left: 70px;
+    content: '';
+    border-right: 1px solid #000;
+    height: 20px;
+    width: 30px;
+  }  
+.color_box_144{
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    top: 33px;
+    left: 20px;
+    padding: 3.5px 57px 3.5px 57px;
+    border: 1px solid #D4004E;
+    color: #D4004E;
+    font-family: 'Hiragino Sans';
+    font-size: 12px;
+}
+.color_box_science{
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    top: 33px;
+    left: 20px;
+    padding: 3.5px 25.5px 3.5px 25.5px;
+    border: 1px solid #5FA153;
+    color: #5FA153;
+    font-family: 'Hiragino Sans';
+    font-size: 12px;
+}
+.color_box_unko{
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    top: 33px;
+    left: 20px;
+    padding: 3.5px 42.5px 3.5px 43.5px;
+    border: 1px solid #50BBF4;
+    color: #50BBF4;
+    font-family: 'Hiragino Sans';
+    font-size: 12px;
+}
+.btn_info_3{
+    position: relative;
+    top: 700px;
+    left: 650px;
+    padding: 10px 45px 10px 45px;
+    background: #D4004E;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+/* footer */
+footer{
+    background-color: #333333;
+    position: relative;
+    top: 800px;
+    width: 100%;
+    height: 261px;
+    color: #ffffff;
+    font-size: 9px;
+}
+.nav-list_footer{
+    list-style: none;
+    position: relative;
+    display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    font-size: 10px;
+    color:white;
+    width: 730px;
+    margin-left: 400px;
+    top: 85px;
+}  
+.nav-item_footer{
+    display: flex;
+    align-items: center;
+}
+.nav-item_footer::after{
+    position: relative;
+    left: 20px; 
+    content: '';
+    border-right: 1px solid #ffffff;
+    height: 10px;
+    width: 30px;
+  }
+.nav-item_footer:last-child::after {
+    content: '';
+    border: none;
+}
+.footer_menu{
+    color: #ffffff;
+}
+.btn_info_4{
+    position: relative;
+    padding: 10px 45px 10px 45px;
+    background: #ffffff;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    top: 140px;
+    margin-left: 600px;
+}
+small{
+    position: relative;
+    top: 209px;
+    right: 210px;
 }
