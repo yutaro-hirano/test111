@@ -3,11 +3,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* outline: 2px red solid; */
 }    
 body {
-  width: 100%;
-  height: 3500px;
   margin: 0;
 }
 .header {
@@ -122,65 +119,49 @@ h2{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 43px;
     position: relative;
-    left: 250px;
-    top: 90px;
-    width: 70%;
+    margin-left: 215px;
+    margin-top: 120px;
+    z-index: 2;
 }
-.mark{
+h2::before{
     position: relative;
-    display: block;
-    margin-bottom: 11px;
-    left: 210px;
-    top: 35px;
+    content: url(./images/mark.png);
+    margin-right: 24px;
+    top: 15px;
 }
 .gray{
-    position: absolute;
+    position:relative;
     background-color: #f2f3f7;
     width: 953px;
     height: 282px;
-    left: 240px;
-    top: 950px;
+    margin-left: 240px;
+    bottom: 35px;
+    z-index: 1;
 }
-p{
-    position: relative;
-    left: 310px;
-    top: 70px;
-    width: 70%;
+.p_gray{
+    margin-left: 63px;
+    padding-top: 70px;
+    line-height: 2;
 }
 .btn_info{
     position: relative;
     padding: 10px 53px 10px 53px;
-    width: 157px;
-    height: 35px;
     background: #D4004E;
     color: #FFF;
-    text-decoration: none;
-    text-align: center;
     font-size: 13px;
-    left: 630px;
-    top: 150px;
-}
-.service{
-    top:240px;
-}
-.mark2{
-    position: relative;
-    display: block;
-    margin-bottom: 11px;
-    left: 210px;
-    top: 180px;
+    margin-left: 370px;
+    top: 70px;
 }
 /* science,iot */
 .info_left{
     position: relative;
-    width: fit-content;
-    top: 240px;
-    left: 210px;
+    margin-top: 72px;
+    margin-left: 210px;
     display: flex;
 }
 .info_left_text{
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 95px;
     color: #D4004E;
     font-family: 'Noto Sans JP', sans-serif;
@@ -189,29 +170,26 @@ p{
 }
 .p_info{
     position:relative;
-    width: 100%;
-    top: 38px;
-    left: auto;
+    margin-top: 38px;
+    margin-left: auto;
     color: #000;
     font-size: 13px;
     font-weight: 700;
 }
 .btn_info_2{
     position: relative;
-    top: 90px;
+    top: 63px;
     left: 105px;
     padding: 10px 45px 10px 45px;
     background: #D4004E;
     color: #FFF;
-    text-decoration: none;
-    text-align: center;
     font-size: 13px;
 }
 /* education,unkobotan */
 .info_right{
     position: relative;
     display: flex;
-    top: 350px;
+    margin-top: 75px;
 }
 .info_right_text{
     position: relative;
@@ -224,24 +202,12 @@ p{
 }
 .img_right{
     position: relative;
-    left: 345px;
-}
-.info_under{
-    position: relative;
-    top: 230px;
+    margin-left: 345px;
 }
 /* ニュース */
 .news{
     position: relative;
-    z-index: 2;
-    top:700px;
-}
-.mark3{
-    position: relative;
-    display: block;
-    margin-bottom: 11px;
-    left: 210px;
-    top: 640px;
+    bottom: 30px;
 }
 .gray_box{
     position: relative;
@@ -249,16 +215,15 @@ p{
     background-color: #f2f3f7;
     width: 954px;
     height: 86px;
-    left: 240px;
-    top: 600px;
-    margin-top: 12px;
+    margin-left: 240px;
+    margin-bottom: 12px;
 }
 .color_box{
     position: relative;
     width: fit-content;
     text-align: center;
     top: 33px;
-    left: 20px;
+    margin-left: 20px;
     padding: 3.5px 6.5px 3.5px 9.5px;
     border: 1px solid #E5A31C;
     color: #E5A31C;
@@ -272,7 +237,7 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 13px;
     left: 120px;
-    top: 10px;
+    margin-top: 10px;
     margin-left: 80px;
 }
 .p_news_right{
@@ -291,7 +256,7 @@ p{
     width: fit-content;
     text-align: center;
     top: 33px;
-    left: 20px;
+    margin-left: 20px;
     padding: 3.5px 57px 3.5px 57px;
     border: 1px solid #D4004E;
     color: #D4004E;
@@ -303,7 +268,7 @@ p{
     width: fit-content;
     text-align: center;
     top: 33px;
-    left: 20px;
+    margin-left: 20px;
     padding: 3.5px 25.5px 3.5px 25.5px;
     border: 1px solid #5FA153;
     color: #5FA153;
@@ -315,7 +280,7 @@ p{
     width: fit-content;
     text-align: center;
     top: 33px;
-    left: 20px;
+    margin-left: 20px;
     padding: 3.5px 42.5px 3.5px 43.5px;
     border: 1px solid #50BBF4;
     color: #50BBF4;
@@ -324,20 +289,17 @@ p{
 }
 .btn_info_3{
     position: relative;
-    top: 700px;
-    left: 650px;
+    margin-left: 650px;
     padding: 10px 45px 10px 45px;
     background: #D4004E;
     color: #FFF;
-    text-decoration: none;
-    text-align: center;
     font-size: 13px;
 }
 /* footer */
 footer{
     background-color: #333333;
     position: relative;
-    top: 800px;
+    margin-top: 98px;
     width: 100%;
     height: 261px;
     color: #ffffff;
@@ -362,7 +324,7 @@ footer{
 }
 .nav-item_footer::after{
     position: relative;
-    left: 20px; 
+    margin-left: 20px; 
     content: '';
     border-right: 1px solid #ffffff;
     height: 10px;
